@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UEFoodInfoView" customModule="UICatalog" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c6C-se-W25">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hJO-oO-cB7">
+                            <rect key="frame" x="20" y="0.0" width="335" height="140"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="uI8-I9-vHV">
+                                    <rect key="frame" x="40" y="0.0" width="253.5" height="130"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sampleカフェ 恵比寿駅前店SampleCafe EBISU EKI-MAE" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loV-sU-jrL">
+                                            <rect key="frame" x="0.0" y="0.0" width="253.5" height="80"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="80" id="6MW-Qj-Y9A"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="America アメリカ料理・¥" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZiF-fI-ymu">
+                                            <rect key="frame" x="0.0" y="80" width="253.5" height="15"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25-35分   4.3★(181)   ￥290の料金" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTp-IO-gCx">
+                                            <rect key="frame" x="0.0" y="95" width="253.5" height="35"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="uI8-I9-vHV" firstAttribute="top" secondItem="hJO-oO-cB7" secondAttribute="top" id="ZkS-aT-pJ4"/>
+                                <constraint firstItem="uI8-I9-vHV" firstAttribute="leading" secondItem="hJO-oO-cB7" secondAttribute="leading" constant="40" id="iMk-7J-yai"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="uI8-I9-vHV" secondAttribute="trailing" constant="40" id="jAk-Mt-FfK"/>
+                                <constraint firstAttribute="bottom" secondItem="uI8-I9-vHV" secondAttribute="bottom" constant="10" id="y1G-Jd-q6e"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="Jxv-vl-ebo"/>
+                        <constraint firstItem="hJO-oO-cB7" firstAttribute="top" secondItem="c6C-se-W25" secondAttribute="top" id="hdb-Zf-DHj"/>
+                        <constraint firstAttribute="trailing" secondItem="hJO-oO-cB7" secondAttribute="trailing" constant="20" id="kId-Mo-l9n"/>
+                        <constraint firstItem="hJO-oO-cB7" firstAttribute="leading" secondItem="c6C-se-W25" secondAttribute="leading" constant="20" id="sDM-rI-qrK"/>
+                        <constraint firstAttribute="bottom" secondItem="hJO-oO-cB7" secondAttribute="bottom" id="tT4-0r-3Lc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="c6C-se-W25" secondAttribute="trailing" id="0Rk-kj-P1K"/>
+                <constraint firstItem="c6C-se-W25" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="C8C-wC-5FN"/>
+                <constraint firstItem="c6C-se-W25" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Ece-DP-783"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="c6C-se-W25" secondAttribute="bottom" id="oTA-hZ-Aoj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="cardView" destination="hJO-oO-cB7" id="mHU-fS-mnZ"/>
+                <outlet property="cardViewLeadingConstraint" destination="sDM-rI-qrK" id="Yl9-Ef-pq4"/>
+                <outlet property="cardViewTrailingConstraint" destination="kId-Mo-l9n" id="7um-jc-sO0"/>
+                <outlet property="genreLabel" destination="ZiF-fI-ymu" id="dg4-FP-A5J"/>
+                <outlet property="infoLabel" destination="VTp-IO-gCx" id="KIc-Ew-ChI"/>
+                <outlet property="titleLabel" destination="loV-sU-jrL" id="XaB-P1-EiH"/>
+                <outlet property="titleLabelHeigthConstraint" destination="6MW-Qj-Y9A" id="ulO-Ob-Dyy"/>
+                <outlet property="titleLabelTopConstraint" destination="ZkS-aT-pJ4" id="SdL-wf-AwV"/>
+            </connections>
+            <point key="canvasLocation" x="-90.400000000000006" y="-185.30734632683661"/>
+        </view>
+    </objects>
+</document>
